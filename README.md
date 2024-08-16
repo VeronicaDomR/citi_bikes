@@ -42,5 +42,6 @@ Las variables como tripduration, stoptime, start_station_id, bikeid, usertype, e
 3. **Transformación de variables**
 - La variable tripduration, que está en segundos, se convierte a minutos y se redondea el valor a minutos enteros.
 - Se calcula el tiempo de inicio del viaje (starttime_calculated) restando la duración del viaje (en minutos) de la hora de finalización (stoptime).
+- Se creó la variable age, que consta de la resta de la fecha actual menos birth_year.
 
 

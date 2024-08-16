@@ -17,3 +17,18 @@ Este proyecto se enfoca en realizar un análisis exploratorio del programa de bi
     - Tendencias históricas: Detectar tendencias en el número de viajes a lo largo del tiempo, observando aumentos o disminuciones.
 4. **Recomendaciones Estratégicas**
     - Recomendaciones para optimización: Basado en los hallazgos, ofrecer sugerencias que puedan mejorar la eficiencia del servicio, aumentar la satisfacción del usuario y promover una mayor participación.
+
+## Preparación de Datos
+
+1. **Revisión de nulos**
+
+Durante la revisión de valores nulos en el dataset citi_bike_trips, se identificaron nulos en las siguientes variables:
+
+   - **birth_year:** 4,639 valores nulos.
+   - **null_customer_plan:** 50,000 valores nulos.
+
+1.1 **Decisiones Tomadas**
+
+   - null_customer_plan: Los valores nulos en esta variable se mantienen,existe la posibilidad de que haya ocurrido un error en la recolección o el procesamiento de los datos, dejando esta variable vacía.
+   - birth_year: Se decidió eliminar los registros con valores nulos en esta variable (4,639 registros) para realizar un análisis más detallado y preciso. Esta decisión permite centrarse en usuarios con información completa, lo que facilita la segmentación por edad y la generación de insights demográficos más robustos.
+

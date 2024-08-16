@@ -27,8 +27,20 @@ Durante la revisión de valores nulos en el dataset citi_bike_trips, se identifi
    - **birth_year:** 4,639 valores nulos.
    - **null_customer_plan:** 50,000 valores nulos.
 
+Puedes revisar la consulta [aquí](sql/nulls.sql).
+
 1.1 **Decisiones Tomadas**
 
    - null_customer_plan: Los valores nulos en esta variable se mantienen,existe la posibilidad de que haya ocurrido un error en la recolección o el procesamiento de los datos, dejando esta variable vacía.
    - birth_year: Se decidió eliminar los registros con valores nulos en esta variable (4,639 registros) para realizar un análisis más detallado y preciso. Esta decisión permite centrarse en usuarios con información completa, lo que facilita la segmentación por edad y la generación de insights demográficos más robustos.
+   - Se eliminaron regisgtros con gender 'unknown', esto con la finalidad de obtener información más precisa.
+
+2. **Revisión de duplicados**
+
+Las variables como tripduration, stoptime, start_station_id, bikeid, usertype, entre otras, son válidas para repetirse en múltiples registros debido a la naturaleza del sistema de bicicletas compartidas. Es común que diferentes usuarios realicen viajes similares o incluso idénticos en distintos momentos, por lo que la existencia de registros duplicados en este contexto no compromete la integridad del análisis.
+
+3. **Transformación de variables**
+- La variable tripduration, que está en segundos, se convierte a minutos y se redondea el valor a minutos enteros.
+- Se calcula el tiempo de inicio del viaje (starttime_calculated) restando la duración del viaje (en minutos) de la hora de finalización (stoptime).
+
 

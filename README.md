@@ -51,6 +51,25 @@ Las variables como tripduration, stoptime, start_station_id, bikeid, usertype, e
 - Se calcula el tiempo de inicio del viaje (starttime_calculated) restando la duración del viaje (en minutos) de la hora de finalización (stoptime).
 - Se creó la variable age, que consta de la resta de la fecha actual menos birth_year.
 
+## Métricas Calculadas
+Se calcularon las métricas diarias del uso del sistema de bicicletas compartidas, para entender mejor los patrones de uso y la demanda del servicio.
+Puedes revisar la consulta [aquí](sql/metricas_uso_diario_avg.sql).
+
+![alt text](images/metricas_uso_diario.png)
+1. **Número Promedio de Viajes por Día (Avg Daily Trips):**
+El programa registra un promedio de 47 viajes por día. Esta métrica refleja la frecuencia con la que las bicicletas son utilizadas por los usuarios en un día típico.
+
+2. **Duración Promedio del Viaje (Avg Trip Duration):**
+La duración promedio de un viaje es de 15 minutos. Este valor indica el tiempo típico que los usuarios pasan utilizando las bicicletas en cada viaje. Un tiempo de viaje de esta duración sugiere que la mayoría de los usuarios utilizan las bicicletas para trayectos cortos, posiblemente como parte de sus desplazamientos diarios o para recorridos recreativos rápidos.
+
+3. **Duración Máxima del Viaje (Max Trip Duration):**
+El viaje más largo registrado en los datos tiene una duración de 54.56 minutos. Este valor es atípico en comparación con la duración promedio, lo que sugiere que, aunque la mayoría de los viajes son cortos, algunos usuarios pueden utilizar el servicio para recorridos más extensos.
+
+4. **Duración Mínima del Viaje (Min Trip Duration):**
+El viaje más corto registrado dura 1 minuto. Esto podría representar a usuarios que realizan trayectos muy cortos, posiblemente solo para trasladarse entre dos puntos cercanos o debido a un cambio de decisión poco después de iniciar el viaje.
+
+
+
 ## Dashboard 
 Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/citibike_17241285808320/Dashboard4?publish=yes)
 

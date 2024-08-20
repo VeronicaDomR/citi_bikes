@@ -18,6 +18,13 @@ Este proyecto se enfoca en realizar un análisis exploratorio del programa de bi
 4. **Recomendaciones Estratégicas**
     - Recomendaciones para optimización: Basado en los hallazgos, ofrecer sugerencias que puedan mejorar la eficiencia del servicio, aumentar la satisfacción del usuario y promover una mayor participación.
 
+## Herramientas
+- Google BigQuery.
+- Tableu
+
+## Lenguajes
+- SQL en BigQuery.
+
 ## Preparación de Datos
 
 1. **Revisión de nulos**

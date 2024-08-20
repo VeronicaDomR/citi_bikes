@@ -52,11 +52,15 @@ Las variables como tripduration, stoptime, start_station_id, bikeid, usertype, e
 - Se creó la variable age, que consta de la resta de la fecha actual menos birth_year.
 
 ## Métricas Calculadas
+
+- **Métricas diarias**
+
 Se calcularon las métricas diarias del uso del sistema de bicicletas compartidas, para entender mejor los patrones de uso y la demanda del servicio.
 
 Puedes revisar la consulta [aquí](sql/metricas_uso_diario_avg.sql).
 
 ![alt text](images/metricas_uso_diario.png)
+
 1. **Número Promedio de Viajes por Día (Avg Daily Trips):**
 El programa registra un promedio de 47 viajes por día. Esta métrica refleja la frecuencia con la que las bicicletas son utilizadas por los usuarios en un día típico.
 
@@ -68,6 +72,12 @@ El viaje más largo registrado en los datos tiene una duración de 54.56 minutos
 
 4. **Duración Mínima del Viaje (Min Trip Duration):**
 El viaje más corto registrado dura 1 minuto. Esto podría representar a usuarios que realizan trayectos muy cortos, posiblemente solo para trasladarse entre dos puntos cercanos o debido a un cambio de decisión poco después de iniciar el viaje.
+
+- **Crecimiento Diario de Viajes**
+
+Se calculó como la diferencia entre el número de viajes de un día y el número de viajes del día anterior, proporcionando una medida del incremento o decremento en la actividad diaria de viajes, con la finalidad de conocer el crecimiento diario, comparado con el día anterior.
+
+![alt text](images/crecimiento_diario.png)
 
 
 

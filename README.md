@@ -53,6 +53,7 @@ Las variables como tripduration, stoptime, start_station_id, bikeid, usertype, e
 
 ## Métricas Calculadas
 Se calcularon las métricas diarias del uso del sistema de bicicletas compartidas, para entender mejor los patrones de uso y la demanda del servicio.
+
 Puedes revisar la consulta [aquí](sql/metricas_uso_diario_avg.sql).
 
 ![alt text](images/metricas_uso_diario.png)

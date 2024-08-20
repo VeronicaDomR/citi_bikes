@@ -84,10 +84,50 @@ Se calculó como la diferencia entre el número de viajes de un día y el númer
 
 ![alt text](images/crecimiento_diario.png)
 
+## Conclusiones Generales
+
+- **Uso Estacional de las Bicicletas:**
+
+    - **Patrón:** La cantidad de viajes aumenta durante los meses más cálidos y alcanza su punto máximo en septiembre. La disminución en invierno sugiere que el clima afecta significativamente el uso de bicicletas.
+    - **Recomendación:** Considerar implementar promociones o eventos especiales durante los meses fríos para mantener el interés en el servicio durante todo el año.
+
+- **Duración del Viaje por Género:**
+
+     - **Patrón:** Las mujeres tienden a tener una duración de viaje ligeramente mayor que los hombres.
+     - **Recomendación:** Investigar las rutas preferidas por género para optimizar la distribución de bicicletas y mejorar la experiencia del usuario en función de estos patrones.
+
+- **Duración del Viaje por Tipo de Usuario:**
+
+    - **Patrón:** Los clientes ocasionales tienen viajes significativamente más largos que los suscriptores, lo que puede indicar un uso más recreativo por parte de los primeros.
+    - **Recomendación:** Considerar ajustar la estructura de precios para los suscriptores y clientes ocasionales o ofrecer paquetes específicos para aquellos que usan las bicicletas para recorridos largos.
+
+- **Rendimiento por Bicicleta:**
+
+    - **Patrón:** El gráfico de burbujas muestra qué estaciones de bicicletas son más utilizadas, sugiriendo la necesidad de mantenimiento regular para las estaciones  más usadas.
+    **Recomendación:** Establecer un programa de mantenimiento preventivo basado en el uso de cada estación y bicicleta para asegurar que todas se mantengan en óptimas condiciones.
+
+- **Estaciones de Inicio y Final:**
+
+    - **Patrón:** Hay estaciones principales tanto para el inicio como para la finalización de los viajes, indicando puntos de alta demanda.
+    - **Recomendación:** Considerar la posibilidad de redistribuir las bicicletas en las estaciones más populares para equilibrar la oferta y la demanda, y posiblemente añadir más estaciones en áreas de alta demanda.
+
+## Recomendaciones para el Nuevo CEO
+
+- **Optimización Estacional:**
+
+    - **Estrategia:** Aprovechar el aumento estacional en el uso durante los meses cálidos para maximizar los ingresos y considerar estrategias para mantener el uso en invierno.
+- **Personalización del Servicio:**
+    - **Estrategia:** Ofrecer rutas y promociones personalizadas basadas en los patrones de uso por género y tipo de usuario. Esto puede mejorar la satisfacción del cliente y aumentar la retención.
+- **Mantenimiento y Gestión de Flotas:**
+    - **Estrategia:** Implementar un sistema de mantenimiento predictivo y reactivo para asegurar que las bicicletas más utilizadas reciban el cuidado necesario. También considerar un programa de incentivos para mantener bicicletas en buen estado.
+- **Expansión de Infraestructura:**
+    - **Estrategia:** Utiliza los datos de las estaciones más populares para planificar la expansión de la infraestructura de bicicletas compartidas. Esto puede incluir la adición de nuevas estaciones y la mejora de las existentes.
+- **Marketing y Promociones:**
+    - **Estrategia:** Lanzar campañas de marketing dirigidas a los clientes ocasionales durante los meses fríos y promociones para aumentar el uso entre los suscriptores. Considera ofrecer descuentos o paquetes especiales para incentivar el uso durante todo el año.
 
 
 ## Dashboard 
-Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/citibike_17241285808320/Dashboard4?publish=yes)
+Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/citibike_17241285808320/Dashboard5?publish=yes)
 
 
 

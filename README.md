@@ -93,6 +93,10 @@ Puedes revisar la consulta [aquí](sql/metricas_uso_diario_avg.sql).
 
 Se realizó una consulta para analizar el rendimiento de las bicicletas (`bikeid`) agrupado por edad, tipo de usuario y género.
 
+- **Distribución por Edad y Tipo de Usuario:** 
+  - Suscriptores dominan en el rango de edad de 25-34 años.
+  - Usuarios ocasionales tienen mayor proporción en el rango de 35-44 años.
+
 Puedes revisar la consulta [aquí](sql/metricas_historicas.sql).
 
 ### Crecimiento Diario de Viajes
@@ -101,7 +105,18 @@ Se calculó la diferencia entre el número de viajes de un día y el del día an
 
 ![Crecimiento Diario](images/crecimiento_diario.png)
 
+- Crecimiento sostenido en 2015, con un pico en octubre (551 viajes).
+
+- **Estaciones Más Utilizadas:** 
+  - Estación más utilizada como punto de inicio: "Central Park West & W 72 St" (18,444 viajes).
+  - Estaciones populares de finalización: "PABT Valet" y "Riverside Dr & W 72 St".
+
 ## Conclusiones Generales
+
+- **Demanda por Edad y Tipo de Usuario:**
+
+   - **Patrón:** Suscriptores jóvenes (25-34 años) son el grupo más activo en el servicio.
+  **Recomendación:** Implementar programas de fidelización para suscriptores jóvenes.
 
 - **Uso Estacional de las Bicicletas:**
     - **Patrón:** El número de viajes aumenta en los meses cálidos, con un pico en septiembre.
@@ -139,6 +154,8 @@ Se calculó la diferencia entre el número de viajes de un día y el del día an
 
 - **Marketing y Promociones:**
     - **Estrategia:** Dirigir campañas de marketing a clientes ocasionales durante meses fríos.
+
+   
 
 ## Dashboard
 

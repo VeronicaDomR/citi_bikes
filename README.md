@@ -73,6 +73,11 @@ El viaje más largo registrado en los datos tiene una duración de 54.56 minutos
 4. **Duración Mínima del Viaje (Min Trip Duration):**
 El viaje más corto registrado dura 1 minuto. Esto podría representar a usuarios que realizan trayectos muy cortos, posiblemente solo para trasladarse entre dos puntos cercanos o debido a un cambio de decisión poco después de iniciar el viaje.
 
+- **Métricas históricas**
+Se realizó una consulta para analizar el rendimiento de las bicicletas (bikeid) agrupado por grupos de edad, tipo de usuario y género. Además, calcula el promedio de duración de los viajes, el número de estaciones distintas desde las cuales se han iniciado los viajes, y proporciona conteos totales de viajes por bicicleta, género y tipo de usuario. 
+
+Puedes revisar la consulta [aquí](sql/metricas_historicas.sql).
+
 - **Crecimiento Diario de Viajes**
 
 Se calculó como la diferencia entre el número de viajes de un día y el número de viajes del día anterior, proporcionando una medida del incremento o decremento en la actividad diaria de viajes, con la finalidad de conocer el crecimiento diario, comparado con el día anterior.

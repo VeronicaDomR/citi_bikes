@@ -14,6 +14,3 @@ GROUP BY
   gender, 
   birth_year 
 ORDER BY bikeid;
-
-## Dashboard 
-Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://lookerstudio.google.com/reporting/c826f0f6-8cc6-45c7-b466-fe3d760085fb).

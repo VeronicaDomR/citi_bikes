@@ -45,7 +45,7 @@ Las variables como tripduration, stoptime, start_station_id, bikeid, usertype, e
 - Se creó la variable age, que consta de la resta de la fecha actual menos birth_year.
 
 ## Dashboard 
-Puedes acceder a mi dashboard en Looker Studio haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/citibike_17241285808320/Dashboard4?publish=yes)
+Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/citibike_17241285808320/Dashboard4?publish=yes)
 
 
 

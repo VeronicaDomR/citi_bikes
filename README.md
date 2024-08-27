@@ -20,6 +20,7 @@ Este proyecto se enfoca en realizar un análisis exploratorio del programa de bi
 6. [Conclusiones Generales](#conclusiones-generales)
 7. [Recomendaciones para el Nuevo CEO](#recomendaciones-para-el-nuevo-ceo)
 8. [Dashboard](#dashboard)
+9. [Presentación](#presentacionS)
 
 ## Objetivos
 
@@ -107,10 +108,6 @@ Se calculó la diferencia entre el número de viajes de un día y el del día an
 
 - Crecimiento sostenido en 2015, con un pico en octubre (551 viajes).
 
-- **Estaciones Más Utilizadas:** 
-  - Estación más utilizada como punto de inicio: "Central Park West & W 72 St" (18,444 viajes).
-  - Estaciones populares de finalización: "PABT Valet" y "Riverside Dr & W 72 St".
-
 ## Conclusiones Generales
 
 - **Tipo de Cliente:**
@@ -167,3 +164,7 @@ Se calculó la diferencia entre el número de viajes de un día y el del día an
 ## Dashboard
 
 Puedes acceder a mi dashboard en Tableau haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/NYCCitiBikeDashboard_17247352756510/NYCCitiBikeAnalysis?publish=yes).
+
+## Presentación
+
+Puedes acceder a mi presentación haciendo clic [aquí](https://www.canva.com/design/DAGPBalCUNA/op-T20pgaL114e-jCsBMew/view?utm_content=DAGPBalCUNA&utm_campaign=designshare&utm_medium=link&utm_source=editor).

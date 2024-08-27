@@ -159,4 +159,4 @@ Se calculó la diferencia entre el número de viajes de un día y el del día an
 
 ## Dashboard
 
-Puedes acceder a mi dashboard en Tableau haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/citibike_17241285808320/Dashboard5?publish=yes).
+Puedes acceder a mi dashboard en Tableau haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/NYCCitiBikeDashboard_17247352756510/NYCCitiBikeAnalysis?publish=yes).

@@ -61,7 +61,7 @@ Este proyecto se enfoca en realizar un análisis exploratorio del programa de bi
 
 1.1 **Decisiones Tomadas**
 
-   - **customer_plan:** Se mantienen los valores nulos ya que podrían indicar errores en la recolección o procesamiento de los datos.
+   - **customer_plan:** Se elimina la variable.
    - **birth_year:** Se eliminaron los registros con valores nulos (4,639 registros) para realizar un análisis demográfico más preciso.
    - **gender:** Se eliminaron los registros con el género `unknown` para obtener información más precisa.
 
@@ -113,44 +113,51 @@ Se calculó la diferencia entre el número de viajes de un día y el del día an
 
 ## Conclusiones Generales
 
-- **Demanda por Edad y Tipo de Usuario:**
+- **Tipo de Cliente:**
 
-   - **Patrón:** Suscriptores jóvenes (25-34 años) son el grupo más activo en el servicio.
-  **Recomendación:** Implementar programas de fidelización para suscriptores jóvenes.
+    - **Patrón:** La mayoría de los viajes son realizados por suscriptores (aproximadamente 39,746 viajes), mientras que los clientes ocasionales representan una minoría (906 viajes).
+    - **Recomendación:** Incentivar a los clientes ocasionales por medio  descuentos.
+- **Demanda por Género:**
+    - **Patrón:** El 62.72% de los usuarios son hombres, mientras que el 37.28% son mujeres.
+    - **Recomendación:** Implementar campañas de marketing específicas para atraer a más mujeres al servicio, como campañas de seguridad y actividades para promover el ciclismo entre mujeres.
+
+- **Demanda por Día de la Semana:**
+    - **Patrón:** La demanda es relativamente constante de lunes a viernes, con una ligera disminución durante el fin de semana.
+    - **Recomendación:** Introducir ofertas especiales o eventos los fines de semana para aumentar la utilización del servicio, como descuentos, o promociones familiares.
+
+- **Demanda por Grupo de Edad:**
+    - **Patrón:** Los usuarios en el rango de edad de 35-44 años son los más activos, seguidos por los de 25-34 años.
+    - **Recomendación:** Continuar enfocando las campañas de fidelización en los grupos de edad de 25-44 años, y explorar oportunidades para atraer a grupos de edad menores de 25 años mediante descuentos estudiantiles.
+
+- **Duración del Viaje por Tipo de Usuario:**
+    - **Patrón:** Los clientes ocasionales tienden a realizar viajes más largos en comparación con los suscriptores.
+    - **Recomendación:** Ofrecer tarifas más flexibles o paquetes de tiempo para los clientes ocasionales que les permitan disfrutar de viajes más largos a un costo reducido, y promocionar estas opciones en áreas turísticas.
 
 - **Uso Estacional de las Bicicletas:**
     - **Patrón:** El número de viajes aumenta en los meses cálidos, con un pico en septiembre.
     - **Recomendación:** Implementar promociones o eventos durante el invierno para mantener el uso del servicio.
 
-- **Duración del Viaje por Género:**
-    - **Patrón:** Las mujeres tienden a realizar viajes más largos que los hombres.
-    - **Recomendación:** Investigar rutas preferidas por género para optimizar la distribución de bicicletas.
-
-- **Duración del Viaje por Tipo de Usuario:**
-    - **Patrón:** Los clientes ocasionales realizan viajes más largos que los suscriptores.
-    - **Recomendación:** Ajustar la estructura de precios o ofrecer paquetes específicos para recorridos largos.
-
-- **Rendimiento por Bicicleta:**
-    - **Patrón:** Las estaciones más usadas requieren mantenimiento regular.
-    - **Recomendación:** Implementar un programa de mantenimiento preventivo basado en el uso.
-
-- **Estaciones de Inicio y Final:**
-    - **Patrón:** Hay estaciones con alta demanda para iniciar y finalizar viajes.
-    - **Recomendación:** Redistribuir bicicletas en estaciones populares y considerar añadir más estaciones.
-
 ## Recomendaciones para el Nuevo CEO
 
-- **Optimización Estacional:**
-    - **Estrategia:** Maximizar ingresos durante meses cálidos y mantener uso en invierno.
-  
-- **Personalización del Servicio:**
-    - **Estrategia:** Ofrecer rutas y promociones basadas en patrones de uso por género y tipo de usuario.
+- **Diversificación de la Base de Usuarios por Género:**
 
-- **Mantenimiento y Gestión de Flotas:**
-    - **Estrategia:** Implementar un sistema de mantenimiento predictivo y reactivo.
+    - **Estrategia:** Desarrollar campañas de marketing específicas para aumentar la participación femenina, incluyendo promociones que enfaticen la seguridad y el bienestar.
 
-- **Expansión de Infraestructura:**
-    - **Estrategia:** Usar datos de estaciones populares para planificar la expansión.
+- **Aumento de la Demanda en Fin de Semana:**
+
+    - **Estrategia:** Implementar ofertas especiales y eventos los fines de semana, como recorridos guiados y promociones familiares, para aumentar el uso del servicio.
+
+- **Fidelización de Usuarios Jóvenes:**
+
+    - **Estrategia:** Mantener y expandir programas de fidelización para usuarios en el rango de 25-44 años y atraer a usuarios más jóvenes mediante descuentos y promociones estudiantiles.
+
+- **Tarifas Flexibles para Clientes Ocasionales:**
+
+    - **Estrategia:** Ofrecer paquetes de tiempo y tarifas flexibles para clientes ocasionales, promocionándolos en áreas turísticas para maximizar su uso.
+
+- **Optimización de la Infraestructura:**
+
+    - **Estrategia:** Utilizar datos de demanda para redistribuir estaciones y expandir la infraestructura en áreas de alta utilización, optimizando así la eficiencia operativa.
 
 - **Marketing y Promociones:**
     - **Estrategia:** Dirigir campañas de marketing a clientes ocasionales durante meses fríos.

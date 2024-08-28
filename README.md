@@ -167,4 +167,4 @@ Puedes acceder a mi dashboard en Tableau haciendo clic [aquí](https://public.ta
 
 ## Presentación
 
-Puedes acceder a mi presentación haciendo clic [aquí](https://www.canva.com/design/DAGPBalCUNA/IXPCft4MScPAycBBwZ9K6w/edit?utm_content=DAGPBalCUNA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Puedes acceder a mi presentación haciendo clic [aquí](https://www.canva.com/design/DAGPEdqGv8U/9PjRpzXImjU3QCTS3Gy-iQ/edit?utm_content=DAGPEdqGv8U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
